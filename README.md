@@ -20,6 +20,12 @@ We used time-to-event survival prediction models including `Nnet-survival`, `Dee
 ```shell
 pip install -r requirements.txt
 ```
+Use notebooks:
+- [k-fold-Nnet-survival-best.ipynb](https://github.com/MehradAria/Breast-Cancer-Survival-Prediction/blob/main/k-fold-Nnet-survival-best.ipynb)
+- [k-fold-cox-time-survival-best.ipynb](https://github.com/MehradAria/Breast-Cancer-Survival-Prediction/blob/main/k-fold-cox-time-survival-best.ipynb)
+- [k-fold-deep-hit-single-survival-best.ipynb](https://github.com/MehradAria/Breast-Cancer-Survival-Prediction/blob/main/k-fold-deep-hit-single-survival-best.ipynb)
+- [k-fold-mltr-survival-best.ipynb](https://github.com/MehradAria/Breast-Cancer-Survival-Prediction/blob/main/k-fold-mltr-survival-best.ipynb)
+
 ---
 ### Note
 Setting  `n_jobs` to more than one is not possible due to a bug in pycox library.
